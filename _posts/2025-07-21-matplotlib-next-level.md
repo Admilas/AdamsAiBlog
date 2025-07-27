@@ -10,7 +10,7 @@ tags: [python, matplotlib, visualization]
 Data visualization is one of the most powerful tools in a data analyst’s toolbox. But as soon as you move beyond the basics, it’s easy to get stuck:  
 *"How do I align this label?"*, *"How can I annotate the last point?"*, *"Why is this line so ugly?"*
 
-That’s where AI tools like ChatGPT come in — it’s like having a Matplotlib expert sitting next to you, helping with **any detail** you want to change.
+That’s where AI tools like ChatGPT come in. It’s like having a Matplotlib expert sitting next to you, helping with ***any detail*** you want to change.
 
 Let’s look at a simple but real example:
 
