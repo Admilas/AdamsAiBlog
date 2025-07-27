@@ -71,6 +71,7 @@ plt.annotate("Peak", xy=("May", 3300), xytext=("Apr", 3400),
 ```
 
 Putting it all together: 
+```python
 import matplotlib.pyplot as plt
 
 months = ["Jan", "Feb", "Mar", "Apr", "May"]
