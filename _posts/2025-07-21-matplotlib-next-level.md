@@ -35,7 +35,7 @@ plt.title("Sales")
 plt.show()
 
 ---
-
+```
 While this is basically just the raw data added to a graph, AI can very easily and accuratly make it visually stronger.
 
 We can make it do just that.
@@ -57,9 +57,30 @@ We can also go for something more specific that better helps convey the message 
 Ask ChatGPT: "I want to highlight the data"
 
 Response:
-Annotate the Key Data Point
+```python
 plt.annotate("Peak", xy=("May", 3300), xytext=("Apr", 3400),
              arrowprops=dict(facecolor="black", shrink=0.05))
+
+Putting it all together: 
+import matplotlib.pyplot as plt
+
+months = ["Jan", "Feb", "Mar", "Apr", "May"]
+sales = [2500, 2700, 3000, 3200, 3300]
+
+plt.figure(figsize=(10, 6))
+plt.plot(months, sales, marker="o", color="green", linewidth=3, markersize=8)
+plt.title("Monthly Sales in 2025", fontsize=20, fontweight="bold")
+plt.xlabel("Month", fontsize=14)
+plt.ylabel("Sales (USD)", fontsize=14)
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.gca().set_facecolor("#f9f9f9")
+
+plt.annotate("High point", xy=("May", 3300), xytext=("Apr", 3450),
+             arrowprops=dict(arrowstyle="->", color="green"), fontsize=12, color="green")
+
+plt.tight_layout()
+plt.show()
+```
 
 This final result is polished, readable, and more informative, completely accomplished just by using AI. While this a fairly basic example, this extends to all sorts of visualization. If there's a thought of "how should I make this graph better?" or "X feature would look really good in this graph", asking AI will save time while remaining accuracy. This way we can spend more time on telling the story than tweaking it.
 
