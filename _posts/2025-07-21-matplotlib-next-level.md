@@ -43,18 +43,20 @@ Ask ChatGPT: "Here is my current code: (copy and paste the basic graph), make th
 At this point it will come back with mutliple code suggestion to improve the graph.
 
 Response:
-1. Add Axis Labels and a Descriptive Title
-"plt.title("Monthly Sales in 2025", fontsize=16)
+1. Add Axis Labels and a Descriptive Title:
+plt.title("Monthly Sales in 2025", fontsize=16)
 plt.xlabel("Month", fontsize=12)
-plt.ylabel("Sales ($)", fontsize=12)"
+plt.ylabel("Sales ($)", fontsize=12)
+
 2. Improve Styling and Colors
 plt.plot(months, sales, color="green", linewidth=3, marker="o")
+
 3. Add a Light Background and Gridlines
 plt.grid(True, linestyle='--', alpha=0.5)
 plt.gca().set_facecolor("#f9f9f9")
 
 We can also go for something more specific that better helps convey the message we want to be telling with the data:
-Ask ChatGPT: "I want to highlight the data"
+Ask ChatGPT: "I want to highlight the data when its at the highest or the 'Peak'"
 
 Response:
 ```python
