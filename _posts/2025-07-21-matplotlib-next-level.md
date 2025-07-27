@@ -44,16 +44,22 @@ At this point it will come back with mutliple code suggestion to improve the gra
 
 Response:
 1. Add Axis Labels and a Descriptive Title:
+```python
 plt.title("Monthly Sales in 2025", fontsize=16)
 plt.xlabel("Month", fontsize=12)
 plt.ylabel("Sales ($)", fontsize=12)
+```
 
-2. Improve Styling and Colors
+3. Improve Styling and Colors
+```python
 plt.plot(months, sales, color="green", linewidth=3, marker="o")
+```
 
-3. Add a Light Background and Gridlines
+5. Add a Light Background and Gridlines
+```python
 plt.grid(True, linestyle='--', alpha=0.5)
 plt.gca().set_facecolor("#f9f9f9")
+```
 
 We can also go for something more specific that better helps convey the message we want to be telling with the data:
 Ask ChatGPT: "I want to highlight the data when its at the highest or the 'Peak'"
