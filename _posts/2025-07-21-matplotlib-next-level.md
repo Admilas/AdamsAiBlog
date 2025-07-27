@@ -50,12 +50,12 @@ plt.xlabel("Month", fontsize=12)
 plt.ylabel("Sales ($)", fontsize=12)
 ```
 
-3. Improve Styling and Colors
+2. Improve Styling and Colors
 ```python
 plt.plot(months, sales, color="green", linewidth=3, marker="o")
 ```
 
-5. Add a Light Background and Gridlines
+3 . Add a Light Background and Gridlines
 ```python
 plt.grid(True, linestyle='--', alpha=0.5)
 plt.gca().set_facecolor("#f9f9f9")
@@ -68,6 +68,7 @@ Response:
 ```python
 plt.annotate("Peak", xy=("May", 3300), xytext=("Apr", 3400),
              arrowprops=dict(facecolor="black", shrink=0.05))
+```
 
 Putting it all together: 
 import matplotlib.pyplot as plt
