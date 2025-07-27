@@ -33,8 +33,6 @@ sales = [2500, 2700, 3000, 3200, 3300]
 plt.plot(months, sales)
 plt.title("Sales")
 plt.show()
-
----
 ```
 While this is basically just the raw data added to a graph, AI can very easily and accuratly make it visually stronger.
 
