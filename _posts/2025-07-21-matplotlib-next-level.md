@@ -35,7 +35,7 @@ plt.title("Sales")
 plt.show()
 ```
 
-![Basic Plot](/assets/plot_basic.png)
+<img src="/assets/plot_basic.png" width="600">
 
 
 While this is basically just the raw data added to a graph, AI can very easily and accuratly make it visually stronger.
@@ -94,7 +94,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Basic Plot](/assets/plot_final.png)
+<img src="/assets/plot_final.png" width="600">
 
 
 
