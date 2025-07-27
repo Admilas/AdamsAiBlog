@@ -34,6 +34,10 @@ plt.plot(months, sales)
 plt.title("Sales")
 plt.show()
 ```
+
+![Basic Plot](/assets/plot_basic.png)
+
+
 While this is basically just the raw data added to a graph, AI can very easily and accuratly make it visually stronger.
 
 We can make it do just that.
@@ -89,6 +93,10 @@ plt.annotate("High point", xy=("May", 3300), xytext=("Apr", 3450),
 plt.tight_layout()
 plt.show()
 ```
+
+![Basic Plot](/assets/plot_final.png)
+
+
 
 This final result is polished, readable, and more informative, completely accomplished just by using AI. While this a fairly basic example, this extends to all sorts of visualization. If there's a thought of "how should I make this graph better?" or "X feature would look really good in this graph", asking AI will save time while remaining accuracy. This way we can spend more time on telling the story than tweaking it.
 
